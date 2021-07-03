@@ -1,0 +1,16 @@
+name: Custom
+type: theme
+description: 'A custom theme.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: stable
+
+libraries:
+  - custom/global-styling
+
+regions:
+  header: Header
+  content_top: Content Top
+  content: Content
+  content_bottom: Content Bottom
+  footer: Footer

@@ -1,0 +1,5 @@
+<?php
+
+function custom_preprocess_node(&$variables) {
+  $variables['node_teaser'] = ['#markup' => $variables['node']->body->summary];
+}
